@@ -51,39 +51,6 @@
 
     <link rel="apple-touch-icon" type="image/png" href="/nav/apple-touch-icon.png">
     <link rel="icon" type="image/x-icon" href="/nav/favicon.ico">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100531691-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-        gtag('config', 'UA-100531691-1');
-    </script>
-    <script type="text/javascript">
-        var analyticsAPI = {
-            id: '1',
-            url: 'https://vps.irockbunny.com/analytics?jsoncallback=?',
-            token: 'b20d2b5002a1241da41853f33eccccdd'
-        };
-        var _paq = _paq || [];
-        _paq.push(["setDomains", ["*.ihadyou.cn"]]);
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function () {
-            var u = "https://vps.irockbunny.com/analytics/";
-            _paq.push(['setTrackerUrl', u + 'matomo.php']);
-            _paq.push(['setSiteId', '1']);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.type = 'text/javascript';
-            g.async = true;
-            g.defer = true;
-            g.src = u + 'matomo.js';
-            s.parentNode.insertBefore(g, s);
-        })();
-    </script>
 </head>
 <body>
 <div class="ui large top fixed borderless hidden menu">
@@ -95,7 +62,6 @@
             <div class="logo-text">oicio</div>
         </a>
         <a class="item" href="/"><i class="home icon"></i>博客首页</a>
-        <a class="item" href="/nav/analytics"><i class="home icon"></i>访客分析</a>
         <div class="right menu">
             <a class="item" href="https://github.com/ihadu" target="_blank">
                 <i class="github icon"></i>GitHub</a>
@@ -109,8 +75,7 @@
         </div>
         <div class="logo-text">oicio</div>
     </a>
-    <a class="item" href="/"><i class="home icon"></i>博客首页</a><a class="item" href="/nav/analytics">
-    <i class="home icon"></i>访客分析</a>
+    <a class="item" href="/"><i class="home icon"></i>博客首页</a>
     <a class="item" href="https://github.com/ihadu" target="_blank"><i class="github icon"></i>GitHub</a>
 </div>
 <div class="pusher">
@@ -125,7 +90,6 @@
                     <div class="logo-text">oicio</div>
                 </a>
                 <a class="item" href="/"><i class="home icon"></i>博客首页</a>
-                <a class="item" href="/nav/analytics"><i class="home icon"></i>访客分析</a>
                 <div class="right menu">
                     <a class="item" href="https://github.com/ihadu" target="_blank"><i class="github icon"></i>GitHub</a>
                 </div>
@@ -458,12 +422,6 @@
                 <a id="version" href="https://github.com/ihadu/BYR-Navi/commits" target="_blank"><img
                         src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E4%BA%8E-loading-orange.svg"
                         alt="Update Time"></a>
-                <a id="today-visitors" href="/analytics/"><img
-                        src="https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E8%AE%BF%E5%AE%A2-loading-orange.svg"
-                        alt="Today Visitors"></a>
-                <a id="live-visitors" href="/analytics/"><img
-                        src="https://img.shields.io/badge/%E5%BD%93%E5%89%8D%E5%9C%A8%E7%BA%BF-loading-orange.svg"
-                        alt="Live Visitors"></a>
             </div>
             <div class="ui inverted selection link list">
                 <a class="item" href="/">请为辛苦的开发者众筹一杯星冰乐</a>
